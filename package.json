@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-daisyui-admin-template",
+  "version": "1.0.0",
+  "description": "admin panel template using tailwindcss and daisyui",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwind -i ./src/tailwind.css -o ./src/css/style.css --watch",
+    "build": "tailwind -i ./src/tailwind.css -o ./src/css/build.css --minify"
+  },
+  "keywords": [
+    "tailwind ui",
+    "daisyui templates",
+    "admin template",
+    "tailwind admin panel"
+  ],
+  "author": "Umair Gul",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.14",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.10",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
+  }
+}
